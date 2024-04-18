@@ -1,0 +1,85 @@
+Explica la diferencia entre los operadores == y === en JavaScript.
+
+== : hace la comparacion sin tener en cuenta el tipo de dato
+
+=== : hace una comparacion estricta en la que se tiene en cuenta el tipo de dato
+
+_______________________________
+
+¿Qué es una declaración switch en JavaScript y cuándo es útil su uso?
+
+es una declaracion que nos permite ejecutar diferentes bloques de código según el valor de una 
+expresión. es util para usar dicha expresion y darle usos diferentes dependiendo de nuestra necesidad. 
+tambien podemos usarla para hacer menus de nuestras aplicaciones.
+
+
+
+
+switch (meses) {
+ 	case 1:
+    console.log("Es enero");
+    break;
+ 	case 2:
+    console.log("Es febrero");
+    break;
+	case 3:
+    console.log("Es marzo");
+    
+}
+_____________________
+
+Array:
+Es una lista ordenada de elementos, Se accede a los ellos mediante  indices.
+
+
+numeros = [1,2,3,4,5,6,7,8,9]
+
+Objeto:
+Es una lista de atributos  clave-valor, podemos acceder a los valores mediante las propiedades del objeto.
+
+carro:{
+
+marca = "mazda"
+color = "negro"
+modelo = 2010
+caja = "automatica"
+tipo = "automovil"
+
+}
+
+console.log(marca)
+console.log(color)
+
+_________________________________
+
+Explica cómo funciona el operador ternario en JavaScript y proporciona un ejemplo de su
+uso.
+Evaluas una condición y, dependiendo de si es verdadera o falsa, se devuelve uno de dos valores.
+
+ejemplo:
+let edad = 20;
+let mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
+
+console.log(mensaje);
+
+
+
+
+
+
+_________________________________
+¿Qué es un operador de comparación en JavaScript? Proporciona ejemplos de al menos dos
+operadores de comparación y explica cómo funcionan.
+
+Un operador de comparación son simbolos que utilizamos para comparar dos valores y determinar si son iguales, 
+diferentes, mayores, menores, mayores o iguales o menores o iguales entre sí. el resultado de la validacion es
+ true(verdadero) si cumple la condicion o false (falso) si no la cumple
+
+Operador de Igualdad (==):
+Este operador comprueba si dos valores son iguales, sin tener en cuenta el tipo de dato. 
+
+Operador de Mayor que (>):
+Este operador comprueba si el valor de la izquierda es mayor que el valor de la derecha.
+
+5 > 3   // true, 5 es mayor que 3
+3 > 5   // false, 3 no es mayor que 5
